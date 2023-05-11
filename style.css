@@ -48,12 +48,19 @@ body {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  display: flex;
+  justify-content: center;
 }
 
-.icon-square {
-  display: inline-block;
+.icon-square > a {
   font-size: 60px;
-  padding: 0 20px;
+  padding: 10px;
+  color: rgba(2, 21, 228, 0.58)
+}
+
+.icon-square >a:hover {
+  color: rgba(80, 19, 133, 0.238)
+
 }
 
 @media (max-width: 960px) {
